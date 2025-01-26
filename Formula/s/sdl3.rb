@@ -62,6 +62,7 @@ class Sdl3 < Formula
   test do
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     system bin/"sdl3-config", "--version"
 =======
     (testpath/"test.c").write <<~EOS
@@ -81,5 +82,8 @@ class Sdl3 < Formula
 =======
     system bin/"sdl3-config", "--version"
 >>>>>>> 4e2cc9c4062 (sdl3 3.2.0)
+=======
+    system bin/"sdl3-config", "--version"
+>>>>>>> ea9206a68af (SDL3)
   end
 end
