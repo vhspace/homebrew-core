@@ -61,6 +61,7 @@ class Sdl3 < Formula
 
   test do
 <<<<<<< HEAD
+<<<<<<< HEAD
     system bin/"sdl3-config", "--version"
 =======
     (testpath/"test.c").write <<~EOS
@@ -77,5 +78,8 @@ class Sdl3 < Formula
     ENV["SDL_VIDEODRIVER"] = "dummy"
     system "./test"
 >>>>>>> 28ab3629cad (sdl3 3.2.0)
+=======
+    system bin/"sdl3-config", "--version"
+>>>>>>> 4e2cc9c4062 (sdl3 3.2.0)
   end
 end
